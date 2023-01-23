@@ -871,16 +871,16 @@ Tobias section
 ====================================================================*/
 
 .scrollup {
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
-  opacity: 0.3;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  opacity: 0.7;
   position: fixed;
   bottom: 20px;
   right: 25px;
   color: #fff;
   cursor: pointer;
-  background-color: #000;
+  background-color: #4a4b4d;
   z-index: 1000;
   transition: opacity 0.5s, background-color 0.5s;
   -moz-transition: opacity 0.5s, background-color 0.5s;
@@ -896,7 +896,7 @@ Tobias section
   font-size: 13px;
   position: absolute;
   opacity: 1;
-  color: #333;
+  color: #000;
   left: 50%;
   top: 50%;
   margin-top: -7px;
