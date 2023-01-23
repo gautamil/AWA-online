@@ -667,7 +667,7 @@ Tobias section
                     Service Section
 ===================================================================*/
 .service {
-  background: url(../images/servicebg.jpg) no-repeat center center;
+  background: url(../images/backgroundPattern.png) repeat-x center center;
   background-size: cover;
 }
 .main_service_area .head_title {
