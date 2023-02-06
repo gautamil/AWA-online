@@ -217,7 +217,8 @@ Main components
     transform: translateX(-50%) translateY(-50%);
 }
 .no-touch #main-nav li a:hover {
-    background-color: #FFF;
+    background-color: rgba(255, 255, 255, 0.648);
+    color: #3a393f;
 }
 #main-nav li:last-child a {
     border-bottom: none;

@@ -427,6 +427,10 @@ ul {
 .btn-larg:hover {
   background-color: #333;
 }
+#botoncito:hover {
+  -webkit-filter: invert(.9);
+  filter: invert(.9);
+}
 
 /*===============================================================
 Extra height css
@@ -578,7 +582,7 @@ nav ul li {
 }
 
 .home {
-  background: url(../images/banner3.gif) repeat-x center #000000;
+  background: url(../images/mainWebvideo127MB.gif) no-repeat center #000000;
   background-size: contain; 
   position: relative;
   padding-top: 80px;
