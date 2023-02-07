@@ -85,36 +85,28 @@
                 </nav>
             </div>
 
-
-
             <!-- Home Section -->
             <section id="home" class="home">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 ">
-                            <!-- <video autoplay muted loop>
-                                <source src= assets/images/video/mainWebvideo.mp4>
-                            </video>  -->
-                            <div class="main_home text-center colorstext wow fadeInUp" data-wow-duration="700ms">
-                                <!-- <h1>/\ \/\/ /\</h1>
-                                <p>Welcome to our portfolio</p> -->
-                                <a href="https://awa-portfolio.tumblr.com" target="_blank" class="btn btn-default waves-effect waves-purple">full portfolio</a>
-                            </div>
-
-                        </div><!-- End of col-sm-12 -->
-                    </div><!-- End of row -->
-                </div><!-- End of Container -->
-
-                <div class="home_socail_bar">
-                    <ul>
-                        <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                        <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                        <li><a href=""><i class="fa fa-behance"></i></a></li>
-                        <li><a href=""><i class="fa fa-dribbble"></i></a></li>
-                    </ul>
-                </div>
-            </section><!-- End of Home Section -->
-
+                <div id="homeGrid">
+                    <div id="homeVid">
+                        <video autoplay muted loop>
+                            <source src= assets/images/video/mainWebvideo.mp4>
+                        </video> 
+                        <div class="main_home text-center colorstext wow fadeInUp" id="homeButt" data-wow-duration="700ms">
+                            <a href="https://awa-portfolio.tumblr.com" target="_blank" class="btn btn-default waves-effect waves-purple">full portfolio</a>
+                        </div><!-- End of homeButt -->
+                    </div><!-- End of homevid -->
+                    <div class="home_socail_bar" id="homeSoc">
+                        <ul>
+                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa fa-behance"></i></a></li>
+                            <li><a href=""><i class="fa fa-dribbble"></i></a></li>
+                        </ul>
+                    </div>                    
+                </div><!-- End of homeGrid -->
+            </section>
+            <!-- End of Home Section -->
 
             <!-- About Section -->
             <section id="about" class="about colorsbg">
@@ -140,7 +132,10 @@
 
                                         <div class="col-sm-6 col-sm-offset-1 table-column">
                                             <div class="single_abt single_about_right_img">
-                                                <img src="assets/images/newMoodGif.gif" alt=""/>
+                                                <!-- <img src="assets/images/newMoodGif.gif" alt=""/> -->
+                                                <video autoplay muted loop id="mood">
+                                                     <source src= assets/images/video/newMood.mp4>
+                                                 </video> 
                                             </div>
                                         </div>
                                     </div>

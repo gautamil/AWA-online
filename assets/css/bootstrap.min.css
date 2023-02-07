@@ -30,8 +30,9 @@ audio,
 canvas,
 progress,
 video {
-  display: inline-block;
-  vertical-align: baseline;
+  display: inline-flex;
+  vertical-align: middle;
+
 }
 audio:not([controls]) {
   display: none;
