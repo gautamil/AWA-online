@@ -397,6 +397,12 @@ ul {
   color: #fff;
   text-decoration: none;
 }
+/* .centerButton{
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+} */
 .btn-primary {
   color: #fff;
   background-color: #333;
@@ -629,7 +635,7 @@ nav ul li {
 
 #homeGrid{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: auto-fit 1% 98% 1%;
   /* grid-gap: 2%;
   grid-auto-rows: minmax(100px, auto);  */
 }
@@ -637,13 +643,14 @@ nav ul li {
   grid-column: 2/3;
 }
 #homeVid video{
-  width:fit-content;
+  width: 100%;
+  height: auto;
 }
 #homeButt{
   /* grid-column: 2/3; */
   z-index: 1;
   position: absolute;
-  right: 45%;
+  right: 43%;
   top: 35%;
 }
 #homeSoc{
@@ -707,8 +714,54 @@ nav ul li {
   height: 65%;
   padding-top: 20%;
 }
+
+#aboutContainer{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 3%;
+  align-items: center;
+  justify-items: center;
+}
+
 #mood{
-  height: 35vw;
+  width: 100%;
+  height: auto;
+}
+
+#videoSpotlightContainer{
+  display: grid;
+  grid-template-columns: 65% 35%;
+  margin: 6%;
+  align-items: center;
+  justify-items: center;
+  background-color: #1a1a1a;
+  color: white;
+  column-gap: 1%;
+}
+
+videoSpotlightContainer img{
+  height: 100% !important;
+  width: auto;
+}
+
+#introContainer{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: center;
+  justify-items: center;
+  column-gap: 2%;
+}
+
+#videoContainer{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+#botoncito{
+  width: 70%;
 }
 
 /*=======================================================================

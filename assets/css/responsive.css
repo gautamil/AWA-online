@@ -66,6 +66,34 @@ Author URI: http://www.Xpeedstudio.com
   .home_socail_bar {
     display: none;
   }
+
+  .smallVpTitle{
+    font-size: 2rem;
+    text-align: center !important;
+    display: inline-block;
+  }
+
+  .main_service_area .head_title{
+    padding: 10% 1.5%;
+  }
+
+  .smallVpDescription {
+    margin-top: 35%;
+  }
+
+  #aboutContainer{
+    display: grid;
+    grid-template-columns:none;
+    text-align: center;
+    margin: 1.5%;
+  }
+
+  /* #portfolioBtn{
+    top: 50% !important;
+    left: 50% !important;
+    -ms-transform: translate(-50%, -50%) !important;
+    transform: translate(-50%, -50%) !important;
+  } */
 }
 
 /* Landscape phones and smaller */
